@@ -3,7 +3,7 @@ module xor_test(
         input wire b,
         output wire y
 );                                                                                                                                                                                 
-xor_gate xor_gate(
+dut xor_gate(
         .a(a),
         .b(b),  
         .y(y)                                                                                                                                                                                                                                                                                                                                                 );
